@@ -46,8 +46,7 @@
 "id": 4,
 "pregunta": "¿Cómo podemos mejorar nuestro servicio al cliente?",
 "opciones": [
-{ "id": 13, "texto": "Mayor disponibilidad de atención"
-},
+{ "id": 13, "texto": "Mayor disponibilidad de atención"},
 { "id": 14, "texto": "Más opciones de contacto" },
 { "id": 15, "texto": "Respuestas más rápidas" },
 { "id": 16, "texto": "Entrenamiento al personal" }

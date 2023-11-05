@@ -28,17 +28,14 @@ function App() {
     <BrowserRouter>
     <Menu /> {/* Agrega el menú de navegación */}
     <Routes>
-
       <Route path="/" element={<Inicio
-
       listaEncuestas={listaEncuestas} />} />
       <Route path="/encuesta/crear" element={<CrearEncuesta
       agregarEncuesta={agregarEncuesta} />} />
-
       <Route path="/encuesta/:id" element={<Encuesta
       listaEncuestas={listaEncuestas}
       responderEncuesta={responderEncuesta} />} />
-
+      <Route path="/encuesta/:id" element={<Encuesta listaEncuestas={listaEncuestas} responderEncuesta={responderEncuesta} />} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>

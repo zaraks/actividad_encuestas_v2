@@ -1,6 +1,6 @@
 /* Estilos menú de navegación */
 nav {
-  background-color:firebrick;
+  background-color:#0056b3;
   color: white;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
@@ -20,13 +20,13 @@ li {
 
 a {
   text-decoration: none;
-  color: firebrick;
+  color:rgb(0, 0, 0);
   font-weight: bold;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #0056b3;
+  color: rgb(54, 54, 54);
 }
 
 /*Estilos para los formularios */
